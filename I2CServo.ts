@@ -2,12 +2,14 @@
  * Blocks for driving the Kitronik I2C 16-Servo Driver Board
  */
 //% weight=100 color=#00A654 icon="\uf085" block="I2C 16-Servo"
-namespace kitronik_i2c_16_servo {
+namespace kitronik_i2c_16_servo_dg {
 
 //Some useful parameters. 
     let ChipAddress = 0x6A //default Kitronik Chip address
     let PrescaleReg = 0xFE //the prescale register address
-    let PrescaleVal = 0x85 // 50Hz
+    //let PrescaleVal = 0x85 // 50Hz
+    let PrescaleVal = 0x85 -32 // 50Hz -- DG - hard-code an offset here
+    
     let Mode1Reg = 0x00  //The mode 1 register address
     
 // If you wanted to write some code that stepped through the servos then this is the BASe and size to do that 	
