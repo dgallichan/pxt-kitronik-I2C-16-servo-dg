@@ -1,5 +1,5 @@
 {
-    "name": "pxt-kitronik-I2C-16-servo-dg",
+    "name": "pxt-kitronik-I2C-16-servo",
     "version": "0.9.3",
     "description": "Blocks for driving the Kitronik I2C 16 servo expansion board",
     "license": "MIT",
