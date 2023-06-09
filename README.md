@@ -33,5 +33,5 @@ MIT
 
 
 ```package
-pxt-kitronik-I2C-16-servo=github:KitronikLtd/pxt-kitronik-I2C-16-servo
+pxt-kitronik-I2C-16-servo-dg=github:/dgallichan/pxt-kitronik-I2C-16-servo-dg
 ```
